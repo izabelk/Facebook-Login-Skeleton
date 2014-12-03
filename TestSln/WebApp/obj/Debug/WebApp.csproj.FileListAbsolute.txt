@@ -104,3 +104,4 @@ D:\GitHubProjects\Facebook-Login-Skeleton\TestSln\WebApp\bin\Microsoft.Owin.Secu
 D:\GitHubProjects\Facebook-Login-Skeleton\TestSln\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 D:\GitHubProjects\Facebook-Login-Skeleton\TestSln\WebApp\obj\Debug\WebApp.dll
 D:\GitHubProjects\Facebook-Login-Skeleton\TestSln\WebApp\obj\Debug\WebApp.pdb
+D:\GitHubProjects\Facebook-Login-Skeleton\TestSln\WebApp\bin\ImpactWorks.FBGraph.dll
