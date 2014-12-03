@@ -17,7 +17,16 @@ namespace WebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string title = "Test fb share";
+            string url = "http://www.abv.bg";
+            string summery = "Just testing psoting to fb";
+            string image = "http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg";
 
+            string facebooklink = "http://www.facebook.com/sharer.php?s=100&amp;p%5Btitle%5D=" + title;
+            facebooklink += "&amp;p[summary]=" + summery;
+            facebooklink += "&amp;p[url]=" + url;
+            facebooklink += "&amp;&p[images][0]=" + image;
+            lnkFacebook.HRef = facebooklink;
         }
 
         protected void ButtonFb_Click(object sender, EventArgs e)
@@ -35,9 +44,9 @@ namespace WebApp
 
             ////Setting up the permissions
             //List<FBPermissions> permissions = new List<FBPermissions>() {
- 
+
             //    FBPermissions.read_stream,
- 
+
             //    FBPermissions.publish_stream //Permission to publish on wall
             //};
 

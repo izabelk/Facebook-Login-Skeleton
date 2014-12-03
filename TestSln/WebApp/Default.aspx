@@ -4,12 +4,11 @@
 
     <div class="jumbotron">
         <h1>ASP.NET</h1>
-         <meta property="og:title" content="The Rock" />
-         <meta property="og:url" content="www.abv.bg" />
-        <div class="fb-share-button"
+        <a id="lnkFacebook" target="_blank" runat="server">Facebook Share</a>
+       <%-- <div class="fb-share-button"
             data-href="https://developers.facebook.com/docs/plugins/"  data-layout="button_count">
-          
-        </div>
+          --%>
+        <%--</div>--%>
         <%-- <asp:Button ID="ButtonFb" runat="server" Text="Post To FB" OnClick="ButtonFb_Click"/>--%>
     </div>
 </asp:Content>
